@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "graph-2-stl"
+version = "0.1.0"
+description = ""
+authors = ["Justin"]
+readme = "README.md"
+packages = [{include = "graph_2_stl"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+ipython = "^8.23.0"
+matplotlib = "^3.8.4"
+numpy-stl = "^3.1.1"
+networkx = "^3.3"
+click = "^8.1.7"
+scipy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
